@@ -1,0 +1,43 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    font-size: 2rem;
+    background-color: white;
+}
+
+main {
+    width: 230px;
+    height: 400px;
+    margin: 0 auto;
+    background-color: rgb(231, 229, 229);
+    padding: 3rem;
+    border-radius: 0.5rem;
+    position: relative;
+}
+
+div {
+    text-align: center;
+    font-size: 2.5rem;
+    border: 1px solid white;
+    margin-top: 0;
+}
+
+#fee {
+    width: 10rem;
+}
+
+.simulator {
+    position: absolute;
+}
+
+.result {
+    position: absolute;
+    padding-right: 5rem;
+}
+
+.hide {
+    z-index: -1;
+}
+

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>Simulador de juros compostos</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="main.js" defer></script>
+    </head>
+    <body>
+        <main>
+            <div>Ciclic</div>
+            <article class="simulator">
+                <h2>Simulador</h2>
+                <form>
+                    <p>
+                        <label for="name">Nome</label>
+                        <input type="text" name="name" id="name">
+                    </p>
+                    <p>
+                        <label for="fee">Mensalidade</label>
+                        <input type="number" name="fee" id="fee" min="0" step="0.001">
+                    </p>
+                    <p>
+                        <label for="time">Tempo</label>
+                        <input type="number" name="time" id="time" min="0" step="1">
+                    </p>
+                    <p>
+                        <label for="rate">Taxa</label>
+                        <input type="number" name="rate" id="rate" min="0" step="0.0001">
+                    </p>
+                    <p>
+                        <button class="simulate" type="submit">Simular</button>
+                    </p>
+                </form>
+            </article>
+            <article class="result hide">
+                <p class="show"></p>
+                <p>
+                    <button class="reSimulate" type="button">Simular Novamente</button>
+                </p>
+            </article>
+        </main>
+    </body>
+</html>
