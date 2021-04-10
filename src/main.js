@@ -30,7 +30,7 @@ btnSimulate.addEventListener('click', function (event) {
         result.classList.remove('hide');
     })
     .catch(function(error){
-        event.log("Error message: "+error);
+        console.log("Error message: "+error);
     });  
 });
 
