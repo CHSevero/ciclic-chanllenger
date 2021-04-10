@@ -13,7 +13,7 @@ let para = document.querySelector('.show');
 btnSimulate.addEventListener('click', function (event) {
     event.preventDefault();
     
-    fetch('http://api.mathjs.org/v4/', {
+    fetch('https://api.mathjs.org/v4/', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
